@@ -29,7 +29,10 @@
         "gulp-jshint": "^1.4.0",
         "gulp-changed": "*",
         "gulp-cached": "*",
-        "gulp-newer": "*"
+        "gulp-newer": "*",
+        "gulp-mocha": "*",
+        "superagent": "*",
+        "chai": "*"
     },
     "engines": {
         "node": ">= 0.8.0"

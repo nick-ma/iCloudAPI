@@ -1,0 +1,37 @@
+{
+    "name": "iCloudAPI",
+    "version": "0.0.1",
+    "description": "Apple's iCloud API for Node.JS",
+    "keywords": ["Apple", "iCloud", "API", "iOS", "OS X"],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nick-ma/iCloudAPI"
+    },
+    "bugs": {
+        "url": "http://github.com/nick-ma/iCloudAPI/issues"
+    },
+    "author": {
+        "name": "Nick Ma",
+        "email": "honeyday.mj@gmail.com",
+        "url": "https://www.github.com/nick-ma"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/MIT"
+  }],
+    "main": "./lib/index",
+    "dependencies": {
+        "pkginfo": "0.2.x",
+        "underscore": "*",
+        "async": "*",
+        "gulp": "*",
+        "gulp-util": "^2.2.0",
+        "gulp-jshint": "^1.4.0",
+        "gulp-changed": "*",
+        "gulp-cached": "*",
+        "gulp-newer": "*"
+    },
+    "engines": {
+        "node": ">= 0.8.0"
+    }
+}
